@@ -1,14 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prompt Builder V2</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Prompt Builder V2 - Outil de Prompt Engineering Moderne</title>
+    <meta
+      name="description"
+      content="Créez des prompts IA optimisés avec une interface moderne inspirée de Linear et Notion"
+    />
+
+    <!-- Préchargement des fonts Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+  <body class="bg-gray-50 font-inter">
+    <!-- Structure de base pour la V2 -->
+    <div id="app">
+      <header id="header" class="bg-white border-b border-gray-200">
+        <!-- TODO: Navigation header -->
+        <h1 class="text-2xl font-bold text-gray-900 p-4">Prompt Builder V2</h1>
+      </header>
+
+      <main id="main-content" class="flex min-h-screen">
+        <!-- TODO: Sidebar navigation -->
+        <aside id="sidebar" class="w-64 bg-white border-r border-gray-200">
+          <div class="p-4">
+            <p class="text-gray-600">Navigation sidebar</p>
+          </div>
+        </aside>
+
+        <!-- TODO: Zone de construction principale -->
+        <section id="builder-area" class="flex-1 p-6">
+          <div class="bg-white rounded-lg shadow p-6">
+            <h2 class="text-xl font-semibold mb-4">Construction de Prompt</h2>
+            <p class="text-gray-600">
+              Zone de construction principale - À implémenter
+            </p>
+          </div>
+        </section>
+
+        <!-- TODO: Panel de preview -->
+        <aside
+          id="preview-panel"
+          class="w-96 bg-gray-50 border-l border-gray-200"
+        >
+          <div class="p-4">
+            <h3 class="font-semibold mb-2">Aperçu en Temps Réel</h3>
+            <p class="text-gray-600">Preview panel - À implémenter</p>
+          </div>
+        </aside>
+      </main>
+    </div>
+
+    <!-- Import du JavaScript principal -->
+    <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>

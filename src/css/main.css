@@ -1,0 +1,36 @@
+/* 
+ * Prompt Builder V2 - Styles Principaux
+ * Fichier de styles centralisé utilisant Tailwind CSS
+ * + personnalisations pour glassmorphism et dark mode
+ */
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Variables CSS pour le thème */
+:root {
+  /* Couleurs principales - inspirées de Linear.app */
+  --primary-blue: #3b82f6;
+  --primary-purple: #8b5cf6;
+  --background-light: #fafafa;
+  --background-dark: #1a1a1a;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --glass-blur: blur(10px);
+}
+
+/* TODO: Ajouter les styles de glassmorphism */
+/* TODO: Implémenter le système dark/light mode */
+/* TODO: Créer les animations et micro-interactions */
+
+/* Classes utilitaires custom */
+.glass-card {
+  /* TODO: Définir le style glassmorphism */
+}
+
+.transition-smooth {
+  transition: all 0.2s ease-in-out;
+}

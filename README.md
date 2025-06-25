@@ -94,8 +94,8 @@ npm run dev
 
 ```
 prompt-builder-v2/
+├── index.html
 ├── src/
-│   ├── index.html
 │   ├── css/
 │   │   ├── main.css (Tailwind + custom)
 │   │   └── components.css (composants modulaires)
